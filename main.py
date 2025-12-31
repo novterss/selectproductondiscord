@@ -14,7 +14,7 @@ YOUR_QR_IMAGE = "https://media.discordapp.net/attachments/1452735658354278582/14
 LOG_CHANNEL_ID = 1456037561591005380 
 REVIEW_LINK = "https://discord.com/channels/1452701844366168126/1452716968925855966"
 
-# --- 2. ข้อมูลสินค้า (เพิ่มแพคเกจ) ---
+# --- 2. ข้อมูลสินค้า ---
 products = {
     # --- สินค้าเดี่ยว ---
     "sms": {
@@ -134,7 +134,7 @@ class ProductSelect(Select):
                 description=f"สินค้า: **{data['title']}**\nยอดที่ต้องโอน: **{data['price']}**\n\n📌 *กรุณากรอกยอดเงินให้ตรงกับราคาสินค้านะครับ*", 
                 color=0x0099ff
             )
-            # ใช้ตัวแปร YOUR_QR_IMAGE ที่ตั้งไว้ด้านบน
+            # ใช้ตัวแปร YOUR_QR_IMAGE ที่ตั้งไว้ด้านบน (แก้ลิงก์ให้ถูกต้องแล้ว)
             embed_qr.set_image(url=YOUR_QR_IMAGE)
             
             await interaction.response.send_message(embed=embed_qr, ephemeral=True)

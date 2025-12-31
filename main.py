@@ -64,7 +64,7 @@ class ProductSelect(Select):
         embed.add_field(name="💰 ราคา", value=f"```fix\n{data['price']}\n```", inline=False)
         embed.set_image(url=data['image_url'])
         view = View()
-        view.add_item(discord.ui.Button(label="💳 สั่งซื้อ (Ticket)", style=discord.ButtonStyle.success, url="ใส่ลิ้งค์ห้องTicketของคุณที่นี่"))
+        view.add_item(discord.ui.Button(label="💳 สั่งซื้อ (Ticket)", style=discord.ButtonStyle.success, url="https://discord.com/channels/1452701844366168126/1452717523601461258"))
         await interaction.response.send_message(embed=embed, view=view, ephemeral=True)
 
 @client.tree.command(name="ezproductnow", description="ส่งป้ายประกาศร้านค้า")

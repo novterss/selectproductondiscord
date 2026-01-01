@@ -1,5 +1,0 @@
-DISPLAY_NAME=EzProduct
-DESCRIPTION=Bot Shop
-MAIN=main.py
-MEMORY=100
-VERSION=recommended

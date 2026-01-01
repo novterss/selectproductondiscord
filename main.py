@@ -3,12 +3,12 @@ from discord import app_commands
 from discord.ext import commands
 from discord.ui import Select, View, Button
 import os
-from myserver import keep_alive 
 
-# --- CONFIG ---
-BOT_TOKEN = os.getenv('TOKEN') 
+# --- ใส่ Token ตรงนี้เลยก็ได้สำหรับ Square Cloud (เพื่อความง่าย) ---
+# หรือจะสร้างไฟล์ .env แยกก็ได้ครับ แต่อันนี้ง่ายสุด
+BOT_TOKEN = "MTQ1NjAxNzgxMjgwNjk1OTI4Ng.GOvd1D.T16BDaFMVNztI0SD1lQXHDtAHrF07jCKCHThHM" 
 
-# ลิงก์รูป QR Code (ใส่ลิงก์ของคุณที่นี่)
+# ลิงก์รูป QR Code (ใส่ลิงก์ของคุณ)
 YOUR_QR_IMAGE = "https://media.discordapp.net/attachments/1452735658354278582/1456039160245915731/IMG_7873.jpg?ex=6956e9a3&is=69559823&hm=a6f246191e87dfcafdac7980aa1d79501dda1b25b6b99ae9380e69b8194719c4&=&format=webp&width=940&height=1294"
 
 LOG_CHANNEL_ID = 1456037561591005380 
@@ -90,5 +90,4 @@ async def ezproductnow(interaction: discord.Interaction):
     view.add_item(discord.ui.Button(label="⭐️ เช็คเครดิต", style=discord.ButtonStyle.link, url=REVIEW_LINK))
     await interaction.response.send_message(embed=embed, view=view)
 
-keep_alive()
 client.run(BOT_TOKEN)

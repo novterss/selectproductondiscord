@@ -135,7 +135,7 @@ class ProductSelect(Select):
                 color=0x0099ff
             )
             # ใช้ตัวแปร YOUR_QR_IMAGE ที่ตั้งไว้ด้านบน (แก้ลิงก์ให้ถูกต้องแล้ว)
-            embed_qr.set_image(url=YOUR_QR_IMAGE)
+            embed_qr.set_image(url="https://media.discordapp.net/attachments/1452735658354278582/1456039160245915731/IMG_7873.jpg?ex=6956e9a3&is=69559823&hm=a6f246191e87dfcafdac7980aa1d79501dda1b25b6b99ae9380e69b8194719c4&=&format=webp&width=940&height=1294")
             
             await interaction.response.send_message(embed=embed_qr, ephemeral=True)
 

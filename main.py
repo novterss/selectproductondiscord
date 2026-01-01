@@ -1,20 +1,18 @@
 import discord
 from discord import app_commands
-from discord.ext import commands
 from discord.ui import Select, View, Button
 import os
 
-# --- ใส่ Token ตรงนี้เลยก็ได้สำหรับ Square Cloud (เพื่อความง่าย) ---
-# หรือจะสร้างไฟล์ .env แยกก็ได้ครับ แต่อันนี้ง่ายสุด
-BOT_TOKEN = "MTQ1NjAxNzgxMjgwNjk1OTI4Ng.GOvd1D.T16BDaFMVNztI0SD1lQXHDtAHrF07jCKCHThHM" 
+# --- ใส่ Token ตรงนี้เลย (เพื่อความชัวร์ใน Discloud) ---
+BOT_TOKEN = "MTQ1NjAxNzgxMjgwNjk1OTI4Ng.GOvd1D.T16BDaFMVNztI0SD1lQXHDtAHrF07jCKCHThHM"  # <--- อย่าลืมแก้ตรงนี้!
 
-# ลิงก์รูป QR Code (ใส่ลิงก์ของคุณ)
+# ลิงก์รูป QR Code
 YOUR_QR_IMAGE = "https://media.discordapp.net/attachments/1452735658354278582/1456039160245915731/IMG_7873.jpg?ex=6956e9a3&is=69559823&hm=a6f246191e87dfcafdac7980aa1d79501dda1b25b6b99ae9380e69b8194719c4&=&format=webp&width=940&height=1294"
 
 LOG_CHANNEL_ID = 1456037561591005380 
 REVIEW_LINK = "https://discord.com/channels/1452701844366168126/1452716968925855966"
 
-# --- DATA ---
+# DATA
 products = {
     "sms": {"title": "📱 ยิงเบอร์ SMS", "desc": "ยิงเบอร์เป้าหมาย \n• ระยะเวลา: ถาวร", "price": "100 บาท", "status": "🟢 Online", "image_url": "https://media1.tenor.com/m/mQfF_M43QzsAAAAC/rhythmdoctor-gaming.gif"},
     "steam": {"title": "🎮 Steam Unlocker", "desc": "เล่นเกมสตีมออนไลน์ \n• ระยะเวลา: ถาวร", "price": "400 บาท", "status": "🟢 Online", "image_url": "https://media1.tenor.com/m/0J9ze1ghwzMAAAAd/pc-gamers-too-many-games.gif"},

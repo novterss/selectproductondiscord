@@ -1,4 +1,4 @@
-<img width="464" height="890" alt="image" src="https://github.com/user-attachments/assets/21c5708a-d2f1-4608-8084-58a4d654fd71" /><img width="633" height="619" alt="image" src="https://github.com/user-attachments/assets/97c64a31-a870-43f0-a8a7-9cd9b3c3ce83" /># 🤖 EzProduct Discord Bot
+# 🤖 EzProduct Discord Bot
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
@@ -46,11 +46,14 @@ This bot uses **Ephemeral Messages** for payment information, ensuring that only
 
 ---
 
+<img width="481" height="654" alt="image" src="https://github.com/user-attachments/assets/15697dda-bf27-4ce0-bde5-07418849894d" />
+
+<img width="464" height="890" alt="image" src="https://github.com/user-attachments/assets/bf8eb445-0c8f-457a-8fbb-ce85a4315972" />
+
+
 <p align="center">
 Developed by <a href="https://www.google.com/search?q=https://github.com/novterss">novterss</a> | <b>EzplaystoreTh Official</b>
 </p>
 
-<img width="481" height="654" alt="image" src="https://github.com/user-attachments/assets/15697dda-bf27-4ce0-bde5-07418849894d" />
 
-<img width="464" height="890" alt="image" src="https://github.com/user-attachments/assets/bf8eb445-0c8f-457a-8fbb-ce85a4315972" />
 

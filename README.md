@@ -40,21 +40,19 @@ Once the bot is running, use the following Slash Command in your Discord server:
 
 ---
 
-## 🔒 Security Note
+## 📸 Showcase
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/15697dda-bf27-4ce0-bde5-07418849894d" width="30%" alt="Menu" />
+  <img src="https://github.com/user-attachments/assets/bf8eb445-0c8f-457a-8fbb-ce85a4315972" width="30%" alt="Product" />
+  <img src="https://github.com/user-attachments/assets/35695fff-ae7f-4d92-9861-24ca2bb4fa16" width="30%" alt="QR" />
+</p>
+
+## 🔒 Security Note
 This bot uses **Ephemeral Messages** for payment information, ensuring that only the customer can see the QR code and payment details, keeping your transaction process private and clean.
 
 ---
 
-<img width="481" height="654" alt="image" src="https://github.com/user-attachments/assets/15697dda-bf27-4ce0-bde5-07418849894d" />
-
-<img width="464" height="890" alt="image" src="https://github.com/user-attachments/assets/bf8eb445-0c8f-457a-8fbb-ce85a4315972" />
-
-<img width="403" height="1188" alt="image" src="https://github.com/user-attachments/assets/35695fff-ae7f-4d92-9861-24ca2bb4fa16" />
-
 <p align="center">
-Developed by <a href="https://www.google.com/search?q=https://github.com/novterss">novterss</a> | <b>EzplaystoreTh Official</b>
+  Developed by <a href="https://github.com/novterss">novterss</a> | <b>EzplaystoreTh Official</b>
 </p>
-
-
-

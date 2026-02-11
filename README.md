@@ -50,6 +50,7 @@ This bot uses **Ephemeral Messages** for payment information, ensuring that only
 
 <img width="464" height="890" alt="image" src="https://github.com/user-attachments/assets/bf8eb445-0c8f-457a-8fbb-ce85a4315972" />
 
+<img width="403" height="1188" alt="image" src="https://github.com/user-attachments/assets/35695fff-ae7f-4d92-9861-24ca2bb4fa16" />
 
 <p align="center">
 Developed by <a href="https://www.google.com/search?q=https://github.com/novterss">novterss</a> | <b>EzplaystoreTh Official</b>

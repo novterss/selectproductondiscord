@@ -19,8 +19,8 @@
 1. **Install required libraries**
    ```bash
    pip install discord.py
+ 
 
-```
 
 2. **Setup Environment Variables**
 Open the script and update the following placeholders:

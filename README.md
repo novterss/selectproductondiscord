@@ -16,22 +16,35 @@
 
 ## 🛠️ Configuration & Setup
 
-1. **Install required libraries**
+1. **Install the library**
+
    ```bash
    pip install discord.py
- 
+   ```
 
+2. **Set environment variables** (never put the token in the code)
 
-2. **Setup Environment Variables**
-Open the script and update the following placeholders:
-* `BOT_TOKEN`: Your Discord Bot Token.
-* `YOUR_QR_IMAGE`: Direct link to your payment QR code.
-* `LOG_CHANNEL_ID`: Channel ID for admin notifications.
-* `REVIEW_LINK`: Link to your customer reviews/vouch channel.
+   | Variable | Description |
+   |---|---|
+   | `DISCORD_BOT_TOKEN` | Your Discord bot token |
+   | `QR_IMAGE_URL` | Direct link to your payment QR code image |
+   | `LOG_CHANNEL_ID` | Channel ID for admin notifications |
+   | `REVIEW_LINK` | Link to your reviews / vouch channel |
 
+   ```bash
+   # macOS / Linux
+   export DISCORD_BOT_TOKEN="your-token"
+   # Windows PowerShell
+   $env:DISCORD_BOT_TOKEN = "your-token"
+   ```
 
-3. **Product Management**
-You can easily add or edit products in the `products` dictionary within the code.
+3. **Edit products** in the `products` dictionary inside `selectproduct.py`.
+
+4. **Run the bot**
+
+   ```bash
+   python selectproduct.py
+   ```
 
 ## 🚀 How to use
 

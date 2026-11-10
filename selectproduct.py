@@ -4,13 +4,11 @@ from discord.ui import Select, View, Button
 import os
 
 
-BOT_TOKEN = "โทเค่นบอท"  
-
-
-YOUR_QR_IMAGE = "รูปคิวอาโค๊ต"
-
-LOG_CHANNEL_ID = ไอดีห้องดิสคอร์ด 
-REVIEW_LINK = "ลิงค์ห้อง"
+# Configuration is read from environment variables so no secret is stored in the code.
+BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", "")
+YOUR_QR_IMAGE = os.getenv("QR_IMAGE_URL", "")
+LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0"))
+REVIEW_LINK = os.getenv("REVIEW_LINK", "")
 
 
 products = {
